@@ -1,0 +1,462 @@
+[
+    {
+        "equip": "FC Barcelona",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 25,
+                "posicio": "Porter",
+                "qualitat": 90,
+                "nomPersona": "Ellie Roebuck"
+            },
+            {
+                "foto": "",
+                "dorsal": 17,
+                "posicio": "Davanter",
+                "qualitat": 95,
+                "nomPersona": "Ewa Pajor"
+            },
+            {
+                "foto": "",
+                "dorsal": 2,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Irene Paredes Hernández"
+            },
+            {
+                "foto": "",
+                "dorsal": 10,
+                "posicio": "Davanter",
+                "qualitat": 94,
+                "nomPersona": "Caroline Graham Hansen"
+            },
+            {
+                "foto": "",
+                "dorsal": 12,
+                "posicio": "Migcampista",
+                "qualitat": 88,
+                "nomPersona": "Patricia Guijarro Gutiérrez"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Pere Romeu",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Madrid CF",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 20,
+                "posicio": "Davanter",
+                "qualitat": 89,
+                "nomPersona": "Naomie Noëlle Feller"
+            },
+            {
+                "foto": "",
+                "dorsal": 24,
+                "posicio": "Migcampista",
+                "qualitat": 87,
+                "nomPersona": "Melanie Leupolz"
+            },
+            {
+                "foto": "",
+                "dorsal": 7,
+                "posicio": "Defensa",
+                "qualitat": 88,
+                "nomPersona": "Olga Carmona García"
+            },
+            {
+                "foto": "",
+                "dorsal": 12,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Yasmim Assis Ribeiro"
+            },
+            {
+                "foto": "",
+                "dorsal": 13,
+                "posicio": "Porter",
+                "qualitat": 86,
+                "nomPersona": "Mylene Chavas"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Alberto Toril",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Atlético de Madrid",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 22,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Luany Vitória Da Silva Rosa"
+            },
+            {
+                "foto": "",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Gabriela Antonia García Segura"
+            },
+            {
+                "foto": "",
+                "dorsal": 32,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Laura Tanarro Suárez"
+            },
+            {
+                "foto": "",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Sheila Guijarro Gómez"
+            },
+            {
+                "foto": "",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Fiamma Benítez Iannuzzi"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Víctor Martín",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Sevilla FC",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 86,
+                "nomPersona": "Millaray Scarleth Cortés Espinoza"
+            },
+            {
+                "foto": "",
+                "dorsal": 20,
+                "posicio": "Davanter",
+                "qualitat": 87,
+                "nomPersona": "Paula Partido Durán"
+            },
+            {
+                "foto": "",
+                "dorsal": 6,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Alicia Redondo González"
+            },
+            {
+                "foto": "",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Gemma Gili Giner"
+            },
+            {
+                "foto": "",
+                "dorsal": 1,
+                "posicio": "Porter",
+                "qualitat": 88,
+                "nomPersona": "Esther Sullastres Ayuso"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "David Losada",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Sociedad",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 1,
+                "posicio": "Porter",
+                "qualitat": 83,
+                "nomPersona": "Elene Lete Para"
+            },
+            {
+                "foto": "",
+                "dorsal": 23,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Claire Lavogez"
+            },
+            {
+                "foto": "",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Sanni Maija Franssi"
+            },
+            {
+                "foto": "",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 83,
+                "nomPersona": "Nerea Eizagirre Lasa"
+            },
+            {
+                "foto": "",
+                "dorsal": 15,
+                "posicio": "Davanter",
+                "qualitat": 81,
+                "nomPersona": "Violeta García Quiles"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "José Luis Sánchez Vera",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Betis",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 19,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Ez Abde"
+            },
+            {
+                "foto": "",
+                "dorsal": 11,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Nuria Ligero Fernández"
+            },
+            {
+                "foto": "",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Rhiannon Beth Roberts"
+            },
+            {
+                "foto": "",
+                "dorsal": 19,
+                "posicio": "Defensa",
+                "qualitat": 84,
+                "nomPersona": "Dorine Nina Chuigoue"
+            },
+            {
+                "foto": "",
+                "dorsal": 30,
+                "posicio": "Defensa",
+                "qualitat": 82,
+                "nomPersona": "Blanca Muñoz García"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Joseba Aguirre",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Athletic Club",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 4,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Marta Unzué Urdaniz"
+            },
+            {
+                "foto": "",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Itxaso Uriarte Santamaría"
+            },
+            {
+                "foto": "",
+                "dorsal": 22,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Ainize Barea Núñez"
+            },
+            {
+                "foto": "",
+                "dorsal": 6,
+                "posicio": "Migcampista",
+                "qualitat": 81,
+                "nomPersona": "Irene Oguiza Martínez"
+            },
+            {
+                "foto": "",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 83,
+                "nomPersona": "Daniela Agote Aguirre"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "David Aznar Valverde",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Valencia CF",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 75,
+                "nomPersona": "Ana Marcos Moral"
+            },
+            {
+                "foto": "",
+                "dorsal": 20,
+                "posicio": "Davanter",
+                "qualitat": 74,
+                "nomPersona": "Ascensión Martínez Salinas"
+            },
+            {
+                "foto": "",
+                "dorsal": 5,
+                "posicio": "Migcampista",
+                "qualitat": 72,
+                "nomPersona": "Marta Carro Nolasco"
+            },
+            {
+                "foto": "",
+                "dorsal": 19,
+                "posicio": "Defensa",
+                "qualitat": 73,
+                "nomPersona": "Kerlly Lizeth Real Carranza"
+            },
+            {
+                "foto": "",
+                "dorsal": 1,
+                "posicio": "Porter",
+                "qualitat": 80,
+                "nomPersona": "Enith Salón Marcuello"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Cristian Toro",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "RCD Espanyol",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 28,
+                "posicio": "Davanter",
+                "qualitat": 78,
+                "nomPersona": "Isabelle Hoekstra"
+            },
+            {
+                "foto": "",
+                "dorsal": 15,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Amanda Mbadi"
+            },
+            {
+                "foto": "",
+                "dorsal": 9,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Ana Belén Hernández Rodríguez"
+            },
+            {
+                "foto": "",
+                "dorsal": 23,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Arola Aparicio Gili"
+            },
+            {
+                "foto": "",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 81,
+                "nomPersona": "Lucía Vallejo Blázquez"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Sara Monforte",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Deportivo Alavés",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Asier Villalibre"
+            },
+            {
+                "foto": "",
+                "dorsal": 29,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Jon Guridi"
+            },
+            {
+                "foto": "",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Manu Sánchez"
+            },
+            {
+                "foto": "",
+                "dorsal": 11,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Luka Romero"
+            },
+            {
+                "foto": "",
+                "dorsal": 24,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Kike García"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Luis García Plaza",
+            "esSeleccionador": 0
+        }
+    }
+]
