@@ -219,3 +219,48 @@ footer {
     height: 100%;
     border-radius: 5%;
 }
+
+/*           EQUIP            */
+.section-equip {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-around;
+}
+
+.div-equip {
+    margin: 20px 0px;
+    padding: 5px;
+    background-color: #d5d5d5;
+    text-align: center;
+    border-radius: 5%;
+    color: #1B1B3A;
+}
+
+
+.div-equip:hover {
+    transform: scale(110%);
+    transition: 0.5s;
+    background-color: #A74482;
+    color: #F5F1ED;
+}
+
+.section-equip a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+.jugadors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e8e8e8;
+    color: #1B1B3A;
+    width: 25%;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.jugadors img{
+    width: 100px;
+    border-radius: 5%;
+}
