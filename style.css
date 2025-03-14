@@ -2,7 +2,7 @@
 @font-face {
     font-family: Trajan;
     src: url(source/font/TrajanPro-Regular.ttf);
-  }
+}
 
 @font-face {
     font-family: Trajan Bold;
@@ -249,18 +249,52 @@ footer {
     color: inherit;
 }
 
-.jugadors {
+.div-club {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    margin: 2%;
+    font-size: 35px;
+}
+
+.div-club img {
+    width: 150px;
+    height: 150px;
+}
+
+.section-jugadors{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+}
+
+.section-entrenador{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.entrenador{
+    width: 30%;
+}
+
+.jugador {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #e8e8e8;
     color: #1B1B3A;
-    width: 25%;
     border-radius: 5%;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 15px 0px;
 }
 
-.jugadors img{
+.jugador img{
+    border-radius: 100%;
+    border: 1px solid #dfdfdf;
     width: 100px;
-    border-radius: 5%;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
 }

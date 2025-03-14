@@ -458,5 +458,143 @@
             "nomPersona": "Luis García Plaza",
             "esSeleccionador": 0
         }
+    },
+    {
+        "equip": "SD Eibar",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Asier Villalibre"
+            },
+            {
+                "foto": "",
+                "dorsal": 29,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Jon Guridi"
+            },
+            {
+                "foto": "",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Manu Sánchez"
+            },
+            {
+                "foto": "",
+                "dorsal": 11,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Luka Romero"
+            },
+            {
+                "foto": "",
+                "dorsal": 24,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Kike García"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Luis García Plaza",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Granada CF",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Asier Villalibre"
+            },
+            {
+                "foto": "",
+                "dorsal": 29,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Jon Guridi"
+            },
+            {
+                "foto": "",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Manu Sánchez"
+            },
+            {
+                "foto": "",
+                "dorsal": 11,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Luka Romero"
+            },
+            {
+                "foto": "",
+                "dorsal": 24,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Kike García"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Luis García Plaza",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Levante UD",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Asier Villalibre"
+            },
+            {
+                "foto": "",
+                "dorsal": 29,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Jon Guridi"
+            },
+            {
+                "foto": "",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Manu Sánchez"
+            },
+            {
+                "foto": "",
+                "dorsal": 11,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Luka Romero"
+            },
+            {
+                "foto": "",
+                "dorsal": 24,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Kike García"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Luis García Plaza",
+            "esSeleccionador": 0
+        }
     }
 ]
