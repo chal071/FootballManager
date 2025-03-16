@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>HerGame Manager</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <!--     header       -->
     <header>
@@ -26,9 +28,11 @@
     </header>
 
     <!--        Propers Partits     -->
-    
+    <div class="propers-partits-titol">
+        <h2>Next matches</h2>
+    </div>
     <section class="propers-partits">
-         <div class="proper-partit">
+        <div class="proper-partit">
             <div class="pp-texts">
                 <p>Copa de la Reina
                     <br><b>Wed 12 MAR 19:00, Jor.6</b>
@@ -68,7 +72,7 @@
             </div>
             <p><b>19:30</b></p>
         </div>
-        
+
         <div class="proper-partit">
             <div class="pp-texts">
                 <p>Supercopa de España Femenina
@@ -128,128 +132,157 @@
                 </div>
             </div>
             <p><b>19:30</b></p>
-        </div>       
+        </div>
     </section>
-
     <!--        Jugades Destacades      -->
 
     <section class="jugades-destacades">
         <h2>Latest videos</h2>
         <div class="videos-partits">
-        <div class="video-partits">
-            <iframe src="https://www.youtube.com/embed/9kXU_D00rKw" frameborder="0"></iframe>
-        </div>
-        <div class="video-partits">
-            <iframe src="https://www.youtube.com/embed/HIrUeWNHUhA" frameborder="0"></iframe>
-        </div>
+            <div class="video-partits">
+                <iframe src="https://www.youtube.com/embed/9kXU_D00rKw" frameborder="0"></iframe>
+            </div>
+            <div class="video-partits">
+                <iframe src="https://www.youtube.com/embed/HIrUeWNHUhA" frameborder="0"></iframe>
+            </div>
         </div>
     </section>
 
-    <!--        Ultims Partits         -->
+            <!--        Classificacion      -->
+    <div class="container-tabla">
+        <div class="propers-partits-titol">
+            <h2>Classification table</h2>
+        </div>
 
+        <script src="tabla.js"></script>
+        <table class="tabla-clasificacion">
+            <thead>
+                <tr>
+                    <th>POS</th>
+                    <th>TEAM</th>
+                    <th>MATCHES PLAYED</th>
+                    <th>🟢</th>
+                    <th>🟡</th>
+                    <th>🔴</th>
+                    <th>GS</th>
+                    <th>GC</th>
+                    <th>GD</th>
+                    <th>P</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-clasificacion">
+                <!-- Las filas se poblarán con JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!--        Ultims Partits         -->
+    <div class="propers-partits-titol">
+        <h2>Latest matches</h2>
+    </div>
     <section class="propers-partits">
         <div class="proper-partit">
-           <div class="pp-texts">
-               <p>Liga F
-                   <br><b>Mon 03 MAR 20:00, Jor.6</b>
-                   <br>ESTADIO JOHAN CRUYFF
-               </p>
-           </div>
-           <div class="pp-images">
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_fcb.png" alt="Logo of FCB">
-               </div>
-               <div class="div-vs">
-                   <p>Vs</p>
-               </div>
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_madrid.png" alt="logo of Real Madrid">
-               </div>
-           </div>
-           <p><b>3-1</b></p>
-       </div>
-       <div class="proper-partit">
-           <div class="pp-texts">
-               <p>Copa de la Reina
-                   <br><b>Tue 04 MAR 19:30,Jor.6</b>
-                   <br>CENTRO DEPORTIVO CÍVITAS ALCALÁ DE HENARES
-               </p>
-           </div>
-           <div class="pp-images">
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_eibar.png" alt="Logo of Eibar">
-               </div>
-               <div class="div-vs">
-                   <p>Vs</p>
-               </div>
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_valencia.png" alt="logo of Valencia">
-               </div>
-           </div>
-           <p><b>2-1</b></p>
-       </div>
-       
-       <div class="proper-partit">
-           <div class="pp-texts">
-               <p>Liga F
-                   <br><b>Wed 05 MAR 19:30,Jor.6</b>
-                   <br>MUNICIPAL DE BUTARQUE
-               </p>
-           </div>
-           <div class="pp-images">
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_sociedad.png" alt="Logo of Sociedad">
-               </div>
-               <div class="div-vs">
-                   <p>Vs</p>
-               </div>
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_deportivo.png" alt="logo of deportivo">
-               </div>
-           </div>
-           <p><b>1-1</b></p>
-       </div>
-       <div class="proper-partit">
-           <div class="pp-texts">
-               <p>Supercopa de España Femenina
-                   <br><b>Thu 06 MAR 20:00,Jor.6</b>
-                   <br>CIUTAT ESPORTIVA DANI JARQUE
-               </p>
-           </div>
-           <div class="pp-images">
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_atmadrid.png" alt="Logo of Atmadrid">
-               </div>
-               <div class="div-vs">
-                   <p>Vs</p>
-               </div>
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_athleticclub.png" alt="logo of Arhletic club">
-               </div>
-           </div>
-           <p><b>0-1</b></p>
-       </div>
-       <div class="proper-partit">
-           <div class="pp-texts">
-               <p>Copa de la reina
-                   <br><b>Sat 08 MAR 20:00,Jor.6</b>
-                   <br>CIUDAD DEPORTIVA DEL GRANADA CF
-               </p>
-           </div>
-           <div class="pp-images">
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_espanyol.png" alt="Logo of Espanyol">
-               </div>
-               <div class="div-vs">
-                   <p>Vs</p>
-               </div>
-               <div class="div-pp-logo">
-                   <img src="source/images/logo_equip/logo_betis.png" alt="logo of Betis">
-               </div>
-           </div>
-           <p><b>2-3</b></p>
-       </div>       
-   </section>
+            <div class="pp-texts">
+                <p>Liga F
+                    <br><b>Mon 03 MAR 20:00, Jor.6</b>
+                    <br>ESTADIO JOHAN CRUYFF
+                </p>
+            </div>
+            <div class="pp-images">
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_fcb.png" alt="Logo of FCB">
+                </div>
+                <div class="div-vs">
+                    <p>Vs</p>
+                </div>
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_madrid.png" alt="logo of Real Madrid">
+                </div>
+            </div>
+            <p><b>3-1</b></p>
+        </div>
+        <div class="proper-partit">
+            <div class="pp-texts">
+                <p>Copa de la Reina
+                    <br><b>Tue 04 MAR 19:30,Jor.6</b>
+                    <br>CENTRO DEPORTIVO CÍVITAS ALCALÁ DE HENARES
+                </p>
+            </div>
+            <div class="pp-images">
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_eibar.png" alt="Logo of Eibar">
+                </div>
+                <div class="div-vs">
+                    <p>Vs</p>
+                </div>
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_valencia.png" alt="logo of Valencia">
+                </div>
+            </div>
+            <p><b>2-1</b></p>
+        </div>
+
+        <div class="proper-partit">
+            <div class="pp-texts">
+                <p>Liga F
+                    <br><b>Wed 05 MAR 19:30,Jor.6</b>
+                    <br>MUNICIPAL DE BUTARQUE
+                </p>
+            </div>
+            <div class="pp-images">
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_sociedad.png" alt="Logo of Sociedad">
+                </div>
+                <div class="div-vs">
+                    <p>Vs</p>
+                </div>
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_deportivo.png" alt="logo of deportivo">
+                </div>
+            </div>
+            <p><b>1-1</b></p>
+        </div>
+        <div class="proper-partit">
+            <div class="pp-texts">
+                <p>Supercopa de España Femenina
+                    <br><b>Thu 06 MAR 20:00,Jor.6</b>
+                    <br>CIUTAT ESPORTIVA DANI JARQUE
+                </p>
+            </div>
+            <div class="pp-images">
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_atmadrid.png" alt="Logo of Atmadrid">
+                </div>
+                <div class="div-vs">
+                    <p>Vs</p>
+                </div>
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_athleticclub.png" alt="logo of Arhletic club">
+                </div>
+            </div>
+            <p><b>0-1</b></p>
+        </div>
+        <div class="proper-partit">
+            <div class="pp-texts">
+                <p>Copa de la reina
+                    <br><b>Sat 08 MAR 20:00,Jor.6</b>
+                    <br>CIUDAD DEPORTIVA DEL GRANADA CF
+                </p>
+            </div>
+            <div class="pp-images">
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_espanyol.png" alt="Logo of Espanyol">
+                </div>
+                <div class="div-vs">
+                    <p>Vs</p>
+                </div>
+                <div class="div-pp-logo">
+                    <img src="source/images/logo_equip/logo_betis.png" alt="logo of Betis">
+                </div>
+            </div>
+            <p><b>2-3</b></p>
+        </div>
+    </section>
 
     <!--    footer      -->
     <footer>
@@ -259,16 +292,20 @@
         <div class="footer-icons-container">
             <ul class="footer-icons">
                 <li class="footer-icon">
-                    <a href="https://github.com/chal071/FootballManager" target="_blank" title="Github Repository"><img src="/source/images/github.png" alt="Github Repository"></a>
+                    <a href="https://github.com/chal071/FootballManager" target="_blank" title="Github Repository"><img
+                            src="/source/images/github.png" alt="Github Repository"></a>
                 </li>
                 <li class="footer-icon">
-                    <a href="https://github.com/chal071" target="_blank" title="Chenxiao Xu's Github Profile"><img src="/source/images/github2.png" alt="Chenxiao Xu's Github Profile"></a>
+                    <a href="https://github.com/chal071" target="_blank" title="Chenxiao Xu's Github Profile"><img
+                            src="/source/images/github2.png" alt="Chenxiao Xu's Github Profile"></a>
                 </li>
                 <li class="footer-icon">
-                    <a href="https://github.com/ivorydd" target="_blank" title="Ivory Dipasupil's Github Profile"><img src="/source/images/github2.png" alt="Ivory Dipasupil's Github Profile"></a>
+                    <a href="https://github.com/ivorydd" target="_blank" title="Ivory Dipasupil's Github Profile"><img
+                            src="/source/images/github2.png" alt="Ivory Dipasupil's Github Profile"></a>
                 </li>
             </ul>
         </div>
     </footer>
 </body>
+
 </html>

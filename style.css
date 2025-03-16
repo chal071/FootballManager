@@ -123,12 +123,21 @@ footer {
 
 /*           PROPERS PARTITS         */
 
+.propers-partits-titol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 2% 0% 2%;
+}
+
 .propers-partits{
-    margin: 0px;
-    padding: 0px;
+    margin: 0 2% 2% 2%; 
+    padding: 15px;
     display: grid;
     grid-template-columns: 19% 19% 19% 19% 19%;
     gap: 1%;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .proper-partit{
@@ -139,8 +148,8 @@ footer {
     align-items: center;
     width: 100%;
     margin: 2%;
-    border-radius: 5%;
-    background-color: #fff;
+    border-radius: 8px;
+
 }
 
 .proper-partit:hover {
@@ -155,7 +164,7 @@ footer {
 }
 
 .pp-texts{
-    font-size: 9px;
+    font-size: 11px;
     text-align: center;
     width: 100%;
     height: 100px;
@@ -198,7 +207,7 @@ footer {
 }
 
 .jugades-destacades h2{
-    margin-left: 2%;
+    text-align: center;
 }
 
 .videos-partits{
@@ -297,4 +306,45 @@ footer {
     height: 100px;
     object-fit: cover;
     object-position: top;
+}
+
+/*          TABLE CLASSIFICATION     */
+.container-tabla {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.tabla-clasificacion {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.tabla-clasificacion th, .tabla-clasificacion td {
+    border: 1px solid #1B1B3A;
+    padding: 12px;
+    text-align: center;
+    font-family: Trajan;
+}
+
+.tabla-clasificacion th {
+    background-color: #1B1B3A;
+    color: #F5F1ED;
+    font-family: Trajan Bold;
+}
+
+.tabla-clasificacion tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-clasificacion tr:hover {
+    background-color: #A74482;
+    color: #F5F1ED;
+    transition: 0.3s;
 }

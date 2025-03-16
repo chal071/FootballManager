@@ -1,0 +1,145 @@
+[
+    {
+        "equipo": "FC Barcelona",
+        "pj": 20,
+        "ganados": 15,
+        "empatados": 3,
+        "perdidos": 2,
+        "gf": 40,
+        "gc": 10,
+        "dg": 30,
+        "puntos": 48
+    },
+    {
+        "equipo": "Real Sociedad",
+        "pj": 20,
+        "ganados": 12,
+        "empatados": 4,
+        "perdidos": 4,
+        "gf": 30,
+        "gc": 15,
+        "dg": 15,
+        "puntos": 40
+    },
+    {
+        "equipo": "Levante UD",
+        "pj": 20,
+        "ganados": 11,
+        "empatados": 5,
+        "perdidos": 4,
+        "gf": 28,
+        "gc": 18,
+        "dg": 10,
+        "puntos": 38
+    },
+    {
+        "equipo": "Granada CF",
+        "pj": 20,
+        "ganados": 10,
+        "empatados": 5,
+        "perdidos": 5,
+        "gf": 25,
+        "gc": 20,
+        "dg": 5,
+        "puntos": 35
+    },
+    {
+        "equipo": "SD Eibar",
+        "pj": 20,
+        "ganados": 9,
+        "empatados": 6,
+        "perdidos": 5,
+        "gf": 24,
+        "gc": 18,
+        "dg": 6,
+        "puntos": 33
+    },
+    {
+        "equipo": "Deportivo Abanca",
+        "pj": 20,
+        "ganados": 9,
+        "empatados": 5,
+        "perdidos": 6,
+        "gf": 23,
+        "gc": 19,
+        "dg": 4,
+        "puntos": 32
+    },
+    {
+        "equipo": "RCD Espanyol",
+        "pj": 20,
+        "ganados": 8,
+        "empatados": 6,
+        "perdidos": 6,
+        "gf": 22,
+        "gc": 20,
+        "dg": 2,
+        "puntos": 30
+    },
+    {
+        "equipo": "Valencia CF",
+        "pj": 20,
+        "ganados": 8,
+        "empatados": 5,
+        "perdidos": 7,
+        "gf": 21,
+        "gc": 21,
+        "dg": 0,
+        "puntos": 29
+    },
+    {
+        "equipo": "Athletic Club",
+        "pj": 20,
+        "ganados": 7,
+        "empatados": 6,
+        "perdidos": 7,
+        "gf": 20,
+        "gc": 22,
+        "dg": -2,
+        "puntos": 27
+    },
+    {
+        "equipo": "Real Betis",
+        "pj": 20,
+        "ganados": 6,
+        "empatados": 7,
+        "perdidos": 7,
+        "gf": 19,
+        "gc": 23,
+        "dg": -4,
+        "puntos": 25
+    },
+    {
+        "equipo": "Sevilla FC",
+        "pj": 20,
+        "ganados": 6,
+        "empatados": 6,
+        "perdidos": 8,
+        "gf": 18,
+        "gc": 24,
+        "dg": -6,
+        "puntos": 24
+    },
+    {
+        "equipo": "Atlético de Madrid",
+        "pj": 20,
+        "ganados": 5,
+        "empatados": 7,
+        "perdidos": 8,
+        "gf": 17,
+        "gc": 25,
+        "dg": -8,
+        "puntos": 22
+    },
+    {
+        "equipo": "Real Madrid CF",
+        "pj": 20,
+        "ganados": 5,
+        "empatados": 6,
+        "perdidos": 9,
+        "gf": 16,
+        "gc": 26,
+        "dg": -10,
+        "puntos": 21
+    }
+]
