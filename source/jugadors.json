@@ -4,43 +4,43 @@
         "escut": "",
         "jugadors": [
             {
-                "foto": "",
+                "foto": "https://ligaf.es/media/images/2025/img_players/326612.jpg",
                 "dorsal": 25,
                 "posicio": "Porter",
                 "qualitat": 90,
                 "nomPersona": "Ellie Roebuck"
             },
             {
-                "foto": "",
+                "foto": "https://ligaf.es/media/images/2025/img_players/298276.jpg",
                 "dorsal": 17,
                 "posicio": "Davanter",
                 "qualitat": 95,
                 "nomPersona": "Ewa Pajor"
             },
             {
-                "foto": "",
+                "foto": "https://ligaf.es/media/images/2025/img_players/144814.jpg",
                 "dorsal": 2,
                 "posicio": "Defensa",
                 "qualitat": 85,
-                "nomPersona": "Irene Paredes Hernández"
+                "nomPersona": "Irene Paredes"
             },
             {
-                "foto": "",
+                "foto": "https://ligaf.es/media/images/2025/img_players/304437.jpg",
                 "dorsal": 10,
                 "posicio": "Davanter",
                 "qualitat": 94,
-                "nomPersona": "Caroline Graham Hansen"
+                "nomPersona": "Caroline Graham"
             },
             {
-                "foto": "",
+                "foto": "https://ligaf.es/media/images/2025/img_players/302775.jpg",
                 "dorsal": 12,
                 "posicio": "Migcampista",
                 "qualitat": 88,
-                "nomPersona": "Patricia Guijarro Gutiérrez"
+                "nomPersona": "Patricia Guijarro"
             }
         ],
         "entrenador": {
-            "foto": "",
+            "foto": "https://ligaf.es/media/images/2025/img_employee/208.jpg",
             "nomPersona": "Pere Romeu",
             "esSeleccionador": 0
         }
@@ -553,6 +553,52 @@
     },
     {
         "equip": "Levante UD",
+        "escut": "",
+        "jugadors": [
+            {
+                "foto": "",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Asier Villalibre"
+            },
+            {
+                "foto": "",
+                "dorsal": 29,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Jon Guridi"
+            },
+            {
+                "foto": "",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Manu Sánchez"
+            },
+            {
+                "foto": "",
+                "dorsal": 11,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Luka Romero"
+            },
+            {
+                "foto": "",
+                "dorsal": 24,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Kike García"
+            }
+        ],
+        "entrenador": {
+            "foto": "",
+            "nomPersona": "Luis García Plaza",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Sociedad",
         "escut": "",
         "jugadors": [
             {
