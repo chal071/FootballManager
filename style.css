@@ -259,47 +259,58 @@ footer {
 }
 
 .div-club {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-self: center;
-    margin: 2%;
     font-size: 35px;
+    background: linear-gradient(to bottom, #1B1B3A, #A74482);
+    justify-content: space-between;
+}
+
+.div-club p {
+    color: #F5F1ED;
+    font-weight: bold;
 }
 
 .div-club img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
+
 
 .section-jugadors{
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .section-entrenador{
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
+
 
 .entrenador{
     width: 30%;
 }
 
 .jugador {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 60% 20%;
     background-color: #e8e8e8;
     color: #1B1B3A;
-    border-radius: 5%;
+    border-radius: 5px;
     justify-content: space-around;
     margin: 15px 0px;
 }
 
+.jugador p {
+    justify-self: center;
+    text-align: center;
+}
+
 .jugador img{
+    justify-self: center;
     border-radius: 100%;
     border: 1px solid #dfdfdf;
     width: 100px;

@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../source/images/logo.png">
-    <title>Levante UD</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" type="image/png" href="source/logo.png">
+    <title>Football Teams</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<script src="../script.js"></script>
 <body>
-    <!--     header       -->
-    <header>
-        <div class="logo-header">
+        <!--     header       -->
+     <header>
+         <div class="logo-header">
             <a href="../index.html"><img src="../source/images/logo.png" alt="HerGame Manager's Logo"></a>
-            <h1 class="header-titulo">HERGAME MANAGER</h1>
+             <h1 class="header-titulo">HERGAME MANAGER</h1>
         </div>
         <div class="navbar-container">
             <nav class="navbar">
                 <ul class="nav-link-container">
-                    <li class="nav-link"><a href="../plantilles.html">Teams</a></li>
-                    <li class="nav-link"><a href="../classificacio.html">Classification</a></li>
+                      <li class="nav-link"><a href="../plantilles.html">Teams</a></li>
+                      <li class="nav-link"><a href="../classificacio.html">Classification</a></li>
                     <li class="nav-link"><a href="../formulari.html">Form</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-     <div class="div-club">
-         <img src="../source/images/logo_equip/logo_levante.png" alt="logo de Levante UD">
-         <p>Levante UD</p>
+    <!-- Team  -->
+    <div class="div-club">
+        <p id="teamName"></p>
+        <img id="teamLogo" src="" alt="Team Logo">
     </div>
 
-    <section class="section-entrenador">
-    </section>
-
-    <section class="section-jugadors">
-    </section>
+    <!-- Coach -->
     
+    <div id="section-entrenador" class="section-entrenador"></div>
+
+    <!-- Player -->
+    <div class="section-jugadors" id="section-jugadors"></div>
+
+    <script src="team.js"></script>
+
+
 
     <!--    footer      -->
     <footer>
@@ -57,5 +61,9 @@
             </ul>
         </div>
     </footer>
+
 </body>
 </html>
+
+
+
