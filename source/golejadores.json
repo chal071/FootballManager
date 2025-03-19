@@ -1,42 +1,50 @@
 [
     {
         "nomPersona": "Ewa Pajor",
-        "equip": "FC Barcelona",
-        "golsTotals": 18
+        "equip": "source/images/logo_equip/logo_fcb.png",
+        "golsTotals": 18,
+        "foto": "https://ligaf.es/media/images/2025/img_players/298276.jpg"
     },
     {
         "nomPersona": "Caroline Graham",
-        "equip": "FC Barcelona",
-        "golsTotals": 15
+        "equip": "source/images/logo_equip/logo_fcb.png",
+        "golsTotals": 15,
+        "foto": "https://ligaf.es/media/images/2025/img_players/304437.jpg"
     },
     {
         "nomPersona": "Naomie Noëlle Feller",
-        "equip": "Real Madrid CF",
-        "golsTotals": 14
+        "equip": "source/images/logo_equip/logo_madrid.png",
+        "golsTotals": 14,
+        "foto": "https://ligaf.es/media/images/2025/img_players/665699.jpg"
     },
     {
         "nomPersona": "Luany Vitória Da Silva Rosa",
-        "equip": "Atlético de Madrid",
-        "golsTotals": 12
+        "equip": "source/images/logo_equip/logo_atmadrid.png",
+        "golsTotals": 12,
+        "foto": "https://ligaf.es/media/images/2025/img_players/3255217.jpg"
     },
     {
         "nomPersona": "Paula Partido Durán",
-        "equip": "Sevilla FC",
-        "golsTotals": 11
+        "equip": "source/images/logo_equip/logo_sevilla.png",
+        "golsTotals": 11,
+        "foto": "https://ligaf.es/media/images/2025/img_players/3175183.jpg"
     },
     {
         "nomPersona": "Sanni Maija Franssi",
-        "equip": "Real Sociedad",
-        "golsTotals": 10
+        "equip": "source/images/logo_equip/logo_sociedad.png",
+        "golsTotals": 10,
+        "foto": "https://ligaf.es/media/images/2025/img_players/328981.jpg"
     },
     {
         "nomPersona": "Ainize Barea Núñez",
-        "equip": "Athletic Club",
-        "golsTotals": 9
+        "equip": "source/images/logo_equip/logo_athleticclub.png",
+        "golsTotals": 9,
+        "foto": "https://ligaf.es/media/images/2025/img_players/314874.jpg"
     },
     {
         "nomPersona": "Ana Marcos Moral",
-        "equip": "Valencia CF",
-        "golsTotals": 8
+        "equip": "source/images/logo_equip/logo_valencia.png",
+        "golsTotals": 8,
+        "foto": "https://ligaf.es/media/images/2025/img_players/378958.jpg"
     }
 ]

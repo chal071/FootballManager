@@ -408,21 +408,21 @@ footer {
   }
   
   .card-front {
-    background-color: #A74482;
-    color: #fff;
-    display: flex;
+    background-color: #fff;
+    color: #1B1B3A;
+    grid-template-rows: 50% 25% 25%;  
+    display: grid;
     align-items: center;
     border: 10px solid #A74482;
     border-radius: 10px;
     justify-content: center;
-    font-size: 24px;
+    font-size: 16px;
     transform: rotateY(0deg);
   }
   
   .card-back {
     background-color: #DDA0DD;
-    color: #fff;
-    display: flex;
+    display: grid;
     align-items: center;
     border: 10px solid #DDA0DD;
     border-radius: 10px;
@@ -435,8 +435,18 @@ footer {
     font-size: 18px;
     color: #1B1B3A;
   }
+
   .card-team {
-    font-size: 15px;
-    color: #DDA0DD;
+    display: grid;
+    width: 50%;
+    justify-self: center;
+  }
+
+  .card-foto {
+    width: 25%;
+    object-fit: cover;
+    object-position: top;
+    display: grid;
+    justify-self: center;
   }
   
