@@ -450,3 +450,81 @@ footer {
     justify-self: center;
   }
   
+
+  /*           FORMULARI          */
+  .form-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container > form {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.form-container label {
+    font-weight: bold;
+    color: #1B1B3A;
+}
+
+.form-container input,
+.form-container select {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #A74482;
+    border-radius: 5px;
+    font-family: Trajan;
+}
+
+.checkbox-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Trajan;
+    cursor: pointer;
+}
+
+.checkbox-label input {
+    margin-right: 10px;  
+}
+
+.btn-submit {
+    background-color: #A74482;
+    color: #F5F1ED;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: Trajan;
+}
+
+.btn-submit:hover {
+    background-color: #DDA0DD;
+    color: #1B1B3A;
+}

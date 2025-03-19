@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="source/images/logo.png">
     <title>Form</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <!--     header       -->
     <header>
@@ -24,9 +27,70 @@
             </nav>
         </div>
     </header>
-    
-    <section >
 
+    <section>
+        <div class="form-container">
+            <form id="form-jugador-entrenador">
+                <label for="nom">Name</label>
+                <input type="text" id="nom" name="nom" required>
+                <br>
+                <br>
+
+                <label for="alcada">Height (cm)</label>
+                <input type="number" id="alcada" name="alcada" min="100" max="250" required>
+                <br>
+                <br>
+
+                <label for="pes">Weight (kg)</label>
+                <input type="number" id="pes" name="pes" min="30" max="150" required>
+                <br>
+                <br>
+
+                <label for="data-naixement">Birthdate</label>
+                <input type="date" id="data-naixement" name="data-naixement" required>
+                <br>
+                <br>
+
+                <label for="foto">Photography</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+                <br>
+                <br>
+
+                <label for="tipus">Type</label>
+                <select id="tipus" name="tipus" required>
+                    <option value="jugador">Jugador</option>
+                    <option value="entrenador" selected>Entrenador</option>
+                </select>
+                <br>
+                <br>
+
+                <div id="posicions-container" style="display: none;">
+                    <div class="checkbox-container">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="posicio" value="defensa"> Defensa
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="posicio" value="davanter"> Davanter
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="posicio" value="migcampista"> Migcampista
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="posicio" value="porter"> Porter
+                        </label>
+                    </div>
+                </div>
+                <br><br>
+
+                <label for="equip">Team</label>
+                <select id="equip" name="equip" required></select>
+                <br>
+                <br>
+                <br>
+
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </div>
     </section>
 
     <!--    footer      -->
@@ -37,16 +101,20 @@
         <div class="footer-icons-container">
             <ul class="footer-icons">
                 <li class="footer-icon">
-                    <a href="https://github.com/chal071/FootballManager" target="_blank" title="Github Repository"><img src="/source/images/github.png" alt="Github Repository"></a>
+                    <a href="https://github.com/chal071/FootballManager" target="_blank" title="Github Repository"><img
+                            src="/source/images/github.png" alt="Github Repository"></a>
                 </li>
                 <li class="footer-icon">
-                    <a href="https://github.com/chal071" target="_blank" title="Chenxiao Xu's Github Profile"><img src="/source/images/github2.png" alt="Chenxiao Xu's Github Profile"></a>
+                    <a href="https://github.com/chal071" target="_blank" title="Chenxiao Xu's Github Profile"><img
+                            src="/source/images/github2.png" alt="Chenxiao Xu's Github Profile"></a>
                 </li>
                 <li class="footer-icon">
-                    <a href="https://github.com/ivorydd" target="_blank" title="Ivory Dipasupil's Github Profile"><img src="/source/images/github2.png" alt="Ivory Dipasupil's Github Profile"></a>
+                    <a href="https://github.com/ivorydd" target="_blank" title="Ivory Dipasupil's Github Profile"><img
+                            src="/source/images/github2.png" alt="Ivory Dipasupil's Github Profile"></a>
                 </li>
             </ul>
         </div>
     </footer>
 </body>
+
 </html>
