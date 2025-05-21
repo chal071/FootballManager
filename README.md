@@ -16,8 +16,7 @@
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Frontend**: HTML, CSS, JavaScript (React o Vue, si aplica)
-
+- **Frontend**: HTML, CSS, JavaScript 
 ---
 
 ## 📂 Estructura del proyecto
