@@ -17,9 +17,6 @@
 ## 🛠️ Tecnologías utilizadas
 
 - **Frontend**: HTML, CSS, JavaScript (React o Vue, si aplica)
-- **Backend**: Node.js / Express (si aplica) o conexión a una API de datos
-- **Base de Datos**: MongoDB / MySQL / Firebase (según lo que uses)
-- **Otros**: Chart.js para gráficos, Bootstrap/Tailwind para estilos, etc.
 
 ---
 
